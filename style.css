@@ -1,0 +1,52 @@
+
+.connectButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.btn1 {
+  grid-column: 2/3;
+}
+
+.btn2 {
+  grid-column: 3/4;
+}
+
+.btn3 {
+  grid-column: 4/5;
+}
+
+a {
+  font-family: 'Comfortaa', normal;
+  color: #1f2230
+}
+
+h1 {
+  font-family: 'Comfortaa', normal;
+  color: #1f2230
+}
+
+p {
+  font-family: 'Comfortaa', normal;
+  color: #1f2230
+}
+
+h5 {
+  font-family: 'Comfortaa', normal;
+  color: #1f2230
+}
+
+h2 {
+  font-family: 'Comfortaa', normal;
+  color: #1f2230
+}
+
+footer {
+  font-family: 'Comfortaa', normal;
+  color: #1f2230
+}
+
+
+
+      
