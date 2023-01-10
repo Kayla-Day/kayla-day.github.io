@@ -47,6 +47,19 @@ footer {
   color: #1f2230
 }
 
+.coverImg {
+	max-width: 100%;
+  height: auto; 
+  object-fit: contain;
+}
+
+.aboutMeImg {
+	max-width: 100%;
+  height: auto; 
+  object-fit: contain;
+}
+
+
 
 
       
