@@ -59,7 +59,9 @@ footer {
   object-fit: contain;
 }
 
-
+.nav-link:hover {
+  color: #b7d6a8;
+  }
 
 
       
