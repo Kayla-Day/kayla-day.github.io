@@ -1,9 +1,7 @@
-
-
 .connectButtons {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 50px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 50px;
 }
 
 .btn1 {
@@ -18,10 +16,8 @@
   grid-column: 4/5;
 }
 
-
-
-body{
-  background-image : url("images/firstPiece.png");
+body {
+  background-image: url("images/firstPiece.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -34,26 +30,27 @@ body{
   padding: 2rem;
   border-radius: 1rem;
   background: rgba(255, 255, 255, 0.461);
-	-webkit-backdrop-filter: blur(5px);
-	backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .aboutMeImg {
-	max-width: 100%;
-  height: auto; 
+  max-width: 100%;
+  height: auto;
   object-fit: contain;
-} 
+}
 
 .card-title {
   margin-top: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 1.2rem;
-  font-family: 'Comfortaa', normal;
+  font-family: "Comfortaa", normal;
   font-weight: bold;
-  color: #1f2230
+  color: #1f2230;
 }
 
-p, a {
+p,
+a {
   font-size: 1rem;
 }
 
@@ -89,22 +86,22 @@ h2 {
   color: #1f2230
 } */
 
-a, p, h1, h5, h2, footer {
-  font-family: 'Comfortaa', normal;
-  color: #1f2230
+a,
+p,
+h1,
+h5,
+h2,
+footer {
+  font-family: "Comfortaa", normal;
+  color: #1f2230;
 }
 
- /* .coverImg {
+/* .coverImg {
 	max-width: 100%;
   height: auto; 
   object-fit: contain;
 } */
 
-
-
 .nav-link:hover {
   color: #b7d6a8;
-  }
-
-
-      
+}
